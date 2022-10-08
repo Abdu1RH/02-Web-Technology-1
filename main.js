@@ -1,4 +1,16 @@
-function check (){
+//Sources used to make the assigment (quiz):
+//Radio buttons: https://nicklasdean.gitbook.io/ita22-1-semester/web-technology/11-js-dom-1#radio-buttons
+//Bits of HTML and JS is inspired by: https://youtu.be/Z_VSdgO0AV4
+//Form tag: https://www.w3schools.com/tags/tag_form.asp
+//Flex-direction: column; src: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+//Button css styling src: https://www.w3schools.com/css/css3_buttons.asp
+//CSS is also inspired by the portfolio assignment: https://abdu1rh.github.io/Portfolio/
+//Alert/pop up: https://www.w3schools.com/js/js_popup.asp & https://nicklasdean.gitbook.io/ita22-1-semester/web-technology/11-js-dom-1#exercise-2-level-1
+
+alert("Take a deep breath and get ready to answer some general knowledge questions");
+
+
+function check () {
 
     const Question1 = document.quiz.Question1.value;
 
@@ -21,64 +33,68 @@ function check (){
     let correct = 0;
 
 
-    if (Question1 === "London"){
+
+    if (Question1 === "London") {
         correct++;
     }
 
-    if (Question2 === "7"){
+    if (Question2 === "7") {
         correct++;
     }
 
-    if (Question3 === "Water"){
+    if (Question3 === "Water") {
         correct++;
     }
 
-    if (Question4 === "Jake"){
+    if (Question4 === "Jake") {
         correct++;
     }
 
-    if (Question5 === "Portuguese"){
+    if (Question5 === "Portuguese") {
         correct++;
     }
 
-    if (Question6 === "Tomorrow"){
+    if (Question6 === "Tomorrow") {
         correct++;
     }
 
-    if (Question7 === "Incorrectly"){
+    if (Question7 === "Incorrectly") {
         correct++;
     }
 
-    if (Question8 === "Age"){
+    if (Question8 === "Age") {
         correct++;
     }
 
-    if (Question9 === "2nd"){
+    if (Question9 === "2nd") {
         correct++;
     }
+
 
     if (correct < 3) {
         console.log("Your score is 😢 ", +correct, "/9,", " you should definitely try again!");
-        document.write("Your score is 😢 ", +correct, "/9,", " you should definitely try again!")
+        document.write("Your score is 😢 ", +correct, "/9,", " you should definitely try again!");
+
     }
 
     else if (correct < 6) {
         console.log("Your score is 😐 ", +correct, "/9,", " you did alright, but try again!");
-        document.write("Your score is 😐 ", +correct, "/9,", " you did alright, but try again!")
+        document.write("Your score is 😐 ", +correct, "/9,", " you did alright, but try again!");
+
     }
 
     else if (correct < 8) {
-        console.log("Your score is 😄 ", +correct, "/9," , " you nearly got all questions right, give it another try!");
-        document.write("Your score is 😄 ", +correct, "/9,", " you nearly got all questions right, give it another try!")
-    }
+        console.log("Your score is 😄 ", +correct, "/9,", " you nearly got all questions right, give it another try!");
+        document.write("Your score is 😄 ", +correct, "/9,", " you nearly got all questions right, give it another try!");
 
-    else if ( correct === 9) {
-        console.log("Congrats 🥳, your score is ", +correct , "/9,", " you got all questions right");
-        document.write("Congrats 🥳, your score is ", +correct , "/9,", " you got all questions right")
     }
 
 
+    else if (correct === 9) {
+        console.log("Congrats 🥳, your score is ", +correct, "/9,", " you got all questions right");
+        document.write("Congrats 🥳, your score is ", +correct, "/9,", " you got all questions right");
+    }
 
 
-    //document.write("Congrats 🥳, your score is " +correct, "/9")
+
 }

@@ -1,8 +1,12 @@
-h1 {text-align: center;}
+h1 {
+    text-align: center;
+    }
 
-p{
+
+p {
     font-weight: bold;
-}
+    }
+
 
 
 body {
@@ -11,10 +15,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: auto;
-    margin: 10px;
     flex-direction: column;
-}
+    }
+
+
+#button {
+    background-color: burlywood;
+    color: black;
+    padding: 1px 15px;
+    text-align: center;
+    display: inline-block;
+    }
 
 
 
