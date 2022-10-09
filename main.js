@@ -72,20 +72,20 @@ function check () {
 
 
     if (correct < 3) {
-        console.log("Your score is 😢 ", +correct, "/9,", " you should definitely try again!");
-        document.write("Your score is 😢 ", +correct, "/9,", " you should definitely try again!");
+        console.log("Your score is  ", +correct, "/9 😢,", "  you should definitely try again!");
+        document.write("Your score is  ", +correct, "/9 😢,", "  you should definitely try again!");
 
     }
 
     else if (correct < 6) {
-        console.log("Your score is 😐 ", +correct, "/9,", " you did alright, but try again!");
-        document.write("Your score is 😐 ", +correct, "/9,", " you did alright, but try again!");
+        console.log("Your score is  ", +correct, "/9 😐,", "  you did alright, but try again!");
+        document.write("Your score is  ", +correct, "/9 😐,", "  you did alright, but try again!");
 
     }
 
     else if (correct < 8) {
-        console.log("Your score is 😄 ", +correct, "/9,", " you nearly got all questions right, give it another try!");
-        document.write("Your score is 😄 ", +correct, "/9,", " you nearly got all questions right, give it another try!");
+        console.log("Your score is  ", +correct, "/9 😄,", "  you nearly got all questions right, give it another try!");
+        document.write("Your score is  ", +correct, "/9 😄,", "  you nearly got all questions right, give it another try!");
 
     }
 
