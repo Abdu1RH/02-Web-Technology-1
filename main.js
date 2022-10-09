@@ -7,7 +7,7 @@
 //CSS is also inspired by the portfolio assignment: https://abdu1rh.github.io/Portfolio/
 //Alert/pop up: https://www.w3schools.com/js/js_popup.asp & https://nicklasdean.gitbook.io/ita22-1-semester/web-technology/11-js-dom-1#exercise-2-level-1
 
-alert("Take a deep breath and get ready to answer some general knowledge questions");
+alert("Take A Deep Breath And Get Ready To Answer Some Questions 😄 ");
 
 
 function check () {
@@ -91,8 +91,8 @@ function check () {
 
 
     else if (correct === 9) {
-        console.log("Congrats 🥳, your score is ", +correct, "/9,", " you got all questions right");
-        document.write("Congrats 🥳, your score is ", +correct, "/9,", " you got all questions right");
+        console.log("Congrats 🥳, your score is ", +correct, "/9,", " you got all questions right!");
+        document.write("Congrats 🥳, your score is ", +correct, "/9,", " you got all questions right!");
     }
 
 
